@@ -1,0 +1,213 @@
+body{
+    background: linear-gradient(180deg, rgb(91, 235, 146) 5%, rgb(179, 227, 135) 56%, rgba(222, 233, 164, 0.973) 100%);
+}
+
+
+#zagolovok{
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    text-shadow:rgb(187, 83, 104) 1px 1px 2px;
+    text-align:center;
+    background: #2F4F4F;
+    font-size: 30pt;
+} 
+
+
+
+#V{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    text-shadow:rgb(187, 83, 104) 1px 1px 2px;
+    text-align:center;
+    font-size:large;
+}
+
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+
+#Menu{
+    display: inline-block;
+    margin-left: 10px;
+    border: 2px rgb(162, 19, 19) solid;
+    padding: 5px;
+    background-color: burlywood;
+    border-radius: 15%;
+}
+
+
+h2.header{    
+    color: white;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    background: #2F4F4F;
+    text-shadow: 2px 9px 3px green;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+a{
+    font-size: x-large;
+    text-decoration: none;
+    color: rgb(102, 11, 104);
+}
+
+
+li{
+    font-size: x-large;
+    color: rgb(102, 11, 104);
+}
+
+
+#rad{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 9px 3px green;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #2F4F4F;
+    text-decoration: underline;
+    }
+
+
+
+#history{
+    Color: white;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 9px 3px green;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #2F4F4F;
+    }
+
+
+#Opit{   
+    Color: white;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 9px 3px green;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #2F4F4F;
+    }
+
+
+#Zakon{   
+    Color: white;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 9px 3px green;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #2F4F4F;
+    }
+
+
+#Period{ 
+    Color: white;;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 9px 3px green;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #2F4F4F;
+    }
+
+#Form1{
+    text-align: center;
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+    word-break:normal;
+    text-align: justify;
+    color: #111369;
+}
+
+
+table{
+    border: 4px rgb(118, 6, 6) solid;
+    border-collapse: collapse;
+    color: #800000;
+}
+
+
+th{
+    width: 2cm;
+    border: 1px rgb(9, 234, 13) solid;
+    text-align: center;
+    background-color: rgba(227, 255, 14, 0.726);
+}
+
+
+td{
+    border: 1px rgb(9, 234, 13) dotted;
+    text-align: center;
+    background-color: rgba(255, 159, 14, 0.29);
+}
+
+.A{
+    width: 7.3cm;
+    border: 1px rgb(9, 234, 13) solid; 
+}
+
+
+form{
+    border: 2px rgba(56, 49, 49, 0.664) solid;
+    width: 14cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    margin-left: 3cm;
+    background: rgb(13, 99, 32);
+    background: radial-gradient(circle, rgba(197, 217, 142, 0.378) 0%, rgb(168, 221, 169) 46%, rgba(207,187,208,0.8753623188405797) 100%);
+    border-radius: 10%;
+}
+
+
+input{
+    font-size: x-large;
+    border-radius: 5%;
+    background: white;
+}
+
+
+#send{
+    font-size: x-large;
+    margin-left: 7cm;
+    border-radius: 5%;
+    background: white;
+    margin-bottom: 1cm;
+}
+
+
+
+label{
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+
+#opros{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4ch;
+    color: blue;
+    text-shadow: 1px 2px black;
+    text-align: center;
+    border-bottom: dashed;   
+}
+
+
+#Konez{
+    font-family:'Times New Roman', Times, cursive;
+    font-weight: 550;
+    text-align: justify;
+    color: #800000;
+    font-size: x-large;
+}

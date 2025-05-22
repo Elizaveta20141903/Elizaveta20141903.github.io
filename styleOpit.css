@@ -1,0 +1,319 @@
+body {
+    height: 900px;
+    background: yellow;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    }
+ 
+    
+
+    
+#shar1 {
+    width: 2cm; 
+    height: 2cm;
+    background: blue;
+    border-radius: 50%;
+    transform: translate(2cm, 6cm);
+    box-shadow: 1px 1px 1px 1px white;
+    animation-name: shar1;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+}
+
+
+@keyframes shar1{
+        0%{
+            transform: translate(2cm, 6cm);
+        }
+        30%{
+            transform: translate(21cm, 6cm);
+        }
+        100%{
+            transform: translate(30cm, 16cm);
+        }
+}
+
+
+#shar {
+    width: 4cm; 
+    height: 4cm;
+    background: radial-gradient(ellipse farthest-corner at right bottom, rgb(213, 15, 48), rgb(222, 24, 57) 8%, rgb(222, 10, 46) 30%, rgb(217, 7, 42) 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #ffffff 0%, #fbeef2 8%, pink 25%, rgb(240, 64, 93) 62.5%, rgb(240, 29, 64) 100%);
+    border-radius: 50%;
+    transform: translate(20cm, 9cm);
+    box-shadow: 1px 1px 1px 1px white;
+    animation-name: shar;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+}
+
+
+@keyframes shar{
+        0%{
+            transform: translate(20cm, 9cm);
+        }
+        30%{
+            transform: translate(20cm, 9cm);
+            box-shadow: 1px 1px 1px 1px yellow;
+        }
+        50%{
+            transform: translate(22cm, 9cm);
+            width: 2cm; 
+            height: 6cm;
+            border-radius: 50%;
+            box-shadow: 1px 1px 1px 1px yellow;
+        }
+        100%{
+            background: yellow;
+            box-shadow: 1px 1px 1px 1px yellow;
+        }
+    }
+
+
+#shar2 {
+    width: 2cm; 
+    height: 2cm;
+    background: yellow;
+    border-radius: 50%;
+    transform: translate(21cm, 10cm);
+    animation-name: shar2;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+}
+
+
+@keyframes shar2{
+        0%{
+            background: yellow;
+            transform: translate(21cm, 10cm);
+        }
+        30%{
+            transform: translate(20cm, 5cm);
+            background: blue;
+        }
+        
+        100%{
+            transform: translate(30cm, 5cm);
+            background: blue;
+        }
+    }
+
+
+#shar3 {
+    width: 2cm; 
+    height: 2cm;
+    background: yellow;
+    border-radius: 50%;
+    transform: translate(20cm, 9cm);
+    animation-name: shar3;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+}
+
+
+@keyframes shar3{
+        0%{
+            transform: translate(21cm, 6cm);
+        }
+        55%{
+            transform: translate(21cm, 4cm);
+            background: radial-gradient(ellipse farthest-corner at right bottom, rgb(213, 15, 48), rgb(222, 24, 57) 8%, rgb(222, 10, 46) 30%, rgb(217, 7, 42) 40%, transparent 80%),
+            radial-gradient(ellipse farthest-corner at left top, #ffffff 0%, #fbeef2 8%, pink 25%, rgb(240, 64, 93) 62.5%, rgb(240, 29, 64) 100%);
+        }
+        100%{
+            transform: translate(30cm, 2cm);
+            background: radial-gradient(ellipse farthest-corner at right bottom, rgb(213, 15, 48), rgb(222, 24, 57) 8%, rgb(222, 10, 46) 30%, rgb(217, 7, 42) 40%, transparent 80%),
+            radial-gradient(ellipse farthest-corner at left top, #ffffff 0%, #fbeef2 8%, pink 25%, rgb(240, 64, 93) 62.5%, rgb(240, 29, 64) 100%);
+        }
+    }
+
+
+    #shar4 {
+        width: 2cm; 
+        height: 2cm;
+        background: yellow;
+        border-radius: 50%;
+        transform: translate(20cm, 9cm);
+        animation-name: shar4;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-iteration-count: 2;
+    }
+    
+    
+    @keyframes shar4{
+            0%{
+                transform: translate(21cm, 6cm);
+            }
+            55%{
+                transform: translate(21cm, 8cm);
+                background: radial-gradient(ellipse farthest-corner at right bottom, rgb(213, 15, 48), rgb(222, 24, 57) 8%, rgb(222, 10, 46) 30%, rgb(217, 7, 42) 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #ffffff 0%, #fbeef2 8%, pink 25%, rgb(240, 64, 93) 62.5%, rgb(240, 29, 64) 100%);
+            }
+            100%{
+                transform: translate(30cm, 12cm);
+                background: radial-gradient(ellipse farthest-corner at right bottom, rgb(213, 15, 48), rgb(222, 24, 57) 8%, rgb(222, 10, 46) 30%, rgb(217, 7, 42) 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #ffffff 0%, #fbeef2 8%, pink 25%, rgb(240, 64, 93) 62.5%, rgb(240, 29, 64) 100%);
+            }
+        }
+
+
+#Opit {
+        width: 600px; 
+        height: 300px;
+        transform: translate(30cm, -12cm);
+        animation-name: Opit;
+        animation-duration: 5s;
+        animation-delay: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+        }
+    
+    
+    @keyframes Opit{
+        0%{
+            transform: translate(30cm, -10cm);
+        }
+        70%{
+            transform: translate(10cm, -10cm) rotate(180deg) scale(0.1);
+        }
+        80%{
+            transform: translate(20cm, -10cm) scale(4);
+        }
+        100%{
+            transform: translate(20cm, -10cm) scale(4);
+        }
+    }
+
+
+
+
+    #zagolovok{
+        font-family:'Courier New', Courier, monospace;
+        color: white;
+        text-shadow:rgb(187, 83, 104) 1px 1px 2px;
+        text-align:center;
+        background: #2F4F4F;
+        font-size: 30pt;
+    } 
+    
+    
+    
+    #V{
+        text-decoration: none;
+        font-family:'Courier New', Courier, monospace;
+        color: white;
+        text-shadow:rgb(187, 83, 104) 1px 1px 2px;
+        text-align:center;
+        font-size:large;
+    }
+    
+    
+    ul{
+        list-style: none;
+        text-align: center;
+    }
+    
+    
+    #Menu{
+        display: inline-block;
+        margin-left: 10px;
+        border: 2px rgb(162, 19, 19) solid;
+        padding: 5px;
+        background-color: burlywood;
+        border-radius: 15%;
+    }
+    
+    
+    h2.header{    
+        color: white;
+        text-decoration: underline;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+        background: #2F4F4F;
+        text-shadow: 2px 9px 3px green;
+        text-align: center;
+        font-size: xx-large;
+    }
+    
+    
+    a{
+        font-size: x-large;
+        text-decoration: none;
+        color: rgb(102, 11, 104);
+    }
+    
+    
+    li{
+        font-size: x-large;
+        color: rgb(102, 11, 104);
+    }
+    
+    
+    #rad{
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 2px 9px 3px green;
+        text-align: center;
+        font-size: xx-large;
+        background-color: #2F4F4F;
+        text-decoration: underline;
+        }
+    
+    
+    
+    #history{
+        Color: white;
+        text-decoration: underline;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 2px 9px 3px green;
+        text-align: center;
+        font-size: xx-large;
+        background-color: #2F4F4F;
+        }
+    
+    
+    #Opit{   
+        Color: white;
+        text-decoration: underline;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 2px 9px 3px green;
+        text-align: center;
+        font-size: xx-large;
+        background-color: #2F4F4F;
+        }
+    
+    
+    #Zakon{   
+        Color: white;
+        text-decoration: underline;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 2px 9px 3px green;
+        text-align: center;
+        font-size: xx-large;
+        background-color: #2F4F4F;
+        }
+    
+    
+    #Period{ 
+        Color: white;;
+        text-decoration: underline;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 2px 9px 3px green;
+        text-align: center;
+        font-size: xx-large;
+        background-color: #2F4F4F;
+        }
+  
+    
+    #Konez{
+        font-family:'Times New Roman', Times, cursive;
+        font-weight: 550;
+        text-align: justify;
+        color: #800000;
+        font-size: x-large;
+    }
