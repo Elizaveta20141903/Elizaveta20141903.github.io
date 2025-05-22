@@ -1,10 +1,9 @@
 body {
     height: 900px;
-    background-colour: rgba(255, 255, 0, 0.1);
+    background-colour: yellow;
     background-repeat: no-repeat;
     background-repeat: no-repeat;
-    filter: brightness(10%);
-}
+    }
  
     
 
